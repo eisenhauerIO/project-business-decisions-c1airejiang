@@ -3,10 +3,12 @@
 [![Run Notebook](https://github.com/eisenhauerIO/projects-businss-decisions/actions/workflows/run-notebook.yml/badge.svg)](https://github.com/eisenhauerIO/projects-businss-decisions/actions/workflows/run-notebook.yml)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-## Project Example
+**Main Notebook**: [sera_replication.py](https://github.com/eisenhauerIO/project-business-decisions-c1airejiang/blob/main/sera_replication.py)
 
-The notebook project.ipynb contains an example project by [Annica Gehlen](https://github.com/amageh) from the 2019 iteration of the [OSE data science](https://github.com/OpenSourceEconomics/ose-course-data-science) class at Bonn University. It replicates the results from the following paper:
+The notebook project.ipynb contains an example project by [Claire Jiang](https://github.com/c1airejiang) from the 2026 iteration of the [ECON 481: Data Science Computing for Economics] course at the University of Washington. It replicates the results from the following paper:
 
-* Lindo, J. M., Sanders, N. J., & Oreopoulos, P. (2010). [Ability, Gender, and Performance Standards: Evidence from Academic Probation](https://www.aeaweb.org/articles?id=10.1257/app.2.2.95). *American Economic Journal: Applied Economics*, 2(2), 95-117.
+* Shen, E., Tormoen, D., Shah, S., Farhadi, A., & Dettmers, T. (2026). [SERA: Soft-Verified Efficient Repository Agents](https://arxiv.org/pdf/2601.20789). *Allen Institute for AI, University of Washington, and Carnegie Mellon University
 
-Lindo et al. (2010) examine the effects of academic probation on student outcomes using a regression discontinuity design. The analysis is based on data from a large Canadian university and evaluates whether academic probation is successful in improving the performance of low scoring students. Consistent with a model of performance standards, the authors find that being placed on probation in the first year of university induces some students to drop out of school while it improves the grades of students who continue their studies. In a more general sense, academic probation can offer insights into how agents respond to negative incentives and the threat of punishment in a real-world context.
+sera_replication.py replicates key figures and statistical analyses from the paper SERA: Soft-Verified Efficient Repository Agents. SERA proposes a pipeline for training small coding models by generating fine-tuning data from a large teacher model in order to achieve strong performance on SWE- bench Verified at a fraction of the cost of frontier models. 
+
+This replication will focus on the empirical results reported in the paper: scaling behavior, repository specialization, truncation robustness, and the statistical reliability of these findings.
