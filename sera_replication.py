@@ -1,16 +1,5 @@
 # SERA Figure Replication
-# Reproduces all figures from arxiv 2601.20789 using the paper's raw data.
- 
-# Figures produced:
-#   1. figure1a_glm45.png  — Cost vs Accuracy scaling (GLM-4.5-Air teacher)
-#   2. figure1a_glm46.png  — Cost vs Accuracy scaling (GLM-4.6 teacher)
-#   3. truncation.png      — Context truncation ratio ablation
-#   4. figure1b_spec.png   — Repository specialization α=1.0 vs α=0.0
-#   5. snr_table.png       — Signal-to-noise ratio summary table
- 
-# Usage:
-#   pip install matplotlib numpy
-#   python sera_figures.py
+# Can you train a model to be really good at fixing bugs in a codebase?
 
 import numpy as np
 import matplotlib.pyplot as plt
