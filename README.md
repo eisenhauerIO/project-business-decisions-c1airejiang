@@ -5,7 +5,7 @@
 
 **Main Notebook**: [sera_replication.py](https://github.com/eisenhauerIO/project-business-decisions-c1airejiang/blob/main/sera_replication.py)
 
-The notebook project.ipynb contains an example project by [Claire Jiang](https://github.com/c1airejiang) from the 2026 iteration of the [ECON 481: Data Science Computing for Economics] course at the University of Washington. It replicates the results from the following paper:
+The python project contains an example project by [Claire Jiang](https://github.com/c1airejiang) from the 2026 iteration of the [ECON 481: Data Science Computing for Economics] course at the University of Washington. It replicates the results from the following paper:
 
 * Shen, E., Tormoen, D., Shah, S., Farhadi, A., & Dettmers, T. (2026). [SERA: Soft-Verified Efficient Repository Agents](https://arxiv.org/pdf/2601.20789). *Allen Institute for AI, University of Washington, and Carnegie Mellon University
 
