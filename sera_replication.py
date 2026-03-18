@@ -1,5 +1,8 @@
-# SERA Figure Replication
-# Can you train a model to be really good at fixing bugs in a codebase?
+"# SERA Figure Replication\n",
+    "### ECON 481 \u| Claire Jiang\n",
+    "\n",
+    "---\n",
+    "\n",
 
 import numpy as np
 import matplotlib.pyplot as plt
