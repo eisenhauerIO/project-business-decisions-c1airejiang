@@ -12,3 +12,18 @@ The python project contains an example project by [Claire Jiang](https://github.
 sera_replication.py replicates key figures and statistical analyses from the paper SERA: Soft-Verified Efficient Repository Agents. SERA proposes a pipeline for training small coding models by generating fine-tuning data from a large teacher model in order to achieve strong performance on SWE- bench Verified at a fraction of the cost of frontier models. 
 
 This replication will focus on the empirical results reported in the paper: scaling behavior, repository specialization, truncation robustness, and the statistical reliability of these findings.
+
+**Summary**
+SERA trains SERA-32B (a student model) to fix model bugs by:
+1. Using a teacher model to generate candidate patches on a target repository
+2. Filtering those patches through soft verification rather than full test execution, which keeps costs low
+3. Fine tuning the student model on the filtered data, with an optional specialization phase that mixes repository specific and general training data
+SWE-bench Verified is used throughout this replication process; a model must produce a code patch that resolves a real GitHub issue.
+
+**Data**
+| Variable | Description |
+|------|-------------|
+| `ALL_SEEDS_45` | Accuracy % at each sample size - GLM - 4.5 - Air, 3 seeds |
+| `ALL_SEEDS_46` | Accuracy % at each sample size - GLM - 4.6, 3 seeds |
+| `TRUNCATION_PERF` | Accuracy % at each truncation ratio, 3 seeds |
+| `SPEC_1_0/SPEC_0_0` | Accuracy % across checkpoints - α = 1.0 and α = 0.0, 3 seeds |
